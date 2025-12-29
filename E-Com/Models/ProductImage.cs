@@ -1,0 +1,11 @@
+﻿namespace E_Com.Models
+{
+    public class ProductImage
+    {
+        public int Id { get; set; }
+        public string ImageUrl { get; set; }
+
+        public int ProductId { get; set; }
+        public Products Products { get; set; }
+    }
+}
